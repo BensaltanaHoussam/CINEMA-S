@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    font-family: "Comfortaa", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+
+.header{
+   
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header .logo a{
+    cursor: pointer;
+    font-size: 20px;
+    color: #330031;
+    text-decoration: none;
+    font-weight: 800;
+   
+
+}
+
+
+.nav-bar ul {
+    display: flex;
+    padding: 0;
+    margin-right: 180px ;
+    
+}
+
+.nav-bar li{
+    text-decoration: none;
+    padding-left: 30px;
+    list-style: none;
+   
+}   
+.nav-bar li a{
+    text-decoration: none;
+    color: #330031;
+   
+}   
+
+
+.search {
+    position: relative; 
+}
+
+.search-input {
+    background-color:#330031;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 40px 8px 20px; 
+   
+    border-radius: 25px;
+    width: 300px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+}
+.search-input::placeholder {
+    color: white;
+
+}
