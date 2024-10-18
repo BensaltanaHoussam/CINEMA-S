@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    font-family: "Comfortaa", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+
+
+.header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    z-index: 999; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header .logo a{
+    cursor: pointer;
+    font-size: 20px;
+    color: #330031;
+    text-decoration: none;
+    font-weight: 800;
+   
+
+}
+
+
+.nav-bar ul {
+    display: flex;
+    padding: 0;
+    margin-right: 180px ;
+    
+}
+
+.nav-bar li{
+    padding-left: 30px;
+    list-style: none;
+   
+}   
+.nav-bar li a{
+    text-decoration: none;
+    color: #330031;
+   
+}   
+
+
+.search {
+    position: relative; 
+}
+
+.search-input {
+    background-color:#330031;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 40px 8px 20px; 
+   
+    border-radius: 25px;
+    width: 300px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+}
+.search-input::placeholder {
+    color: white;
+
+}
+
+
+
+
+
+/*maaain---------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.main{
+   margin: 120px 35px;
+
+}
+
+
+.main-content{
+ 
+    margin-top: -250px;
+    color: white;
+    width: 500px;
+    padding-left:40px ;
+    
+}
+.main-content h1{
+   
+
+    font-size: 40px;
+    padding-bottom:4px;
+    
+}
+.main-content h3{
+   
+
+   
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    padding-bottom: 25px;
+   
+    
+   
+    
+}
+
+
+/* movies categories ------------------------------------------------------------------------------------------------ */
+
+
+.title{
+   
+    padding: 30px 20px;
+    
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 200;
+  
+}
+
+
+
+    .em_movies{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+    }
+ 
+
+    .em_card{
+   
+        display: flex;
+        justify-content: center;
+         gap: 5px;
+    
+        
+    }
+
+    .em_card img{
+  
+        width: 145px;
+        display: flex;
+        justify-content: center;
+       
+         
+    }
+
+    .with-info{
+background-image: url(images/wallpaperflare.com_wallpaper1\ \(3\).png);
+        display: flex;
+        width: 500px;
+        border-radius: 19px;
+
+    }
+
+    .poster-pic img{
+
+        width: 250px;
+        margin-top: 30px;
+        margin-left: 13px;
+
+       
+    }
+
+
+    .poster-info{
+        background-color: #CCCCCC;
+        width: 190px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 90px;
+       margin-left: 10px;
+       height: 325px;
+       border-radius: 20px;
+    }
+
+    .poster-info h1{
+        
+     text-decoration: none;
+     color: #330031;
+     padding: 14px 0px;
+     font-weight: 500;
+     margin-right: 130px;
+    
+     
+    }
+
+    .poster-info p{
+        color: #330031;
+        font-weight: 300;
+        padding-bottom: 10px;
+        padding-left: 10px;
+       }
+
+
+       .poster-info a{
+        text-decoration: none;
+
+        color: #CCCCCC;
+        background-color: #330031;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-weight: 600;
+        margin: 12px;
+
+      
+       }
+
+       .show-more{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px;
+       }
+
+       
+       .show-more a{
+     text-decoration: none;
+     background-color: #330031;
+     color: white;
+     padding: 14px 20px;
+     border-radius: 20px;
+
+       }
+
+
+
+
+
+  
+    
+    .line-movie {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+
+    footer {
+   
+        background-color: #330031;
+         padding: 50px 0;
+     }
+     
+     .social-container ul{
+        display: flex;
+        justify-content: space-around;
+        gap: 95px;
+          
+     }
+     
+     .social-titles li{
+         list-style: circle;
+         font-weight: 800;
+         color: #ffffff;
+         padding-bottom: 35px;
+     
+     }
+    
+    
+    
+     .footer-content{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 10px 10px 10px;
+     }
+     
+    
+     .social-icons a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+       
+      
+     }
+     .social-icons li {
+        padding-bottom: 30px;
+       list-style: none; 
+      
+     }
+    
+    
+     .sponsors{
+        padding: 10px 110Px 190px 110px;
+        margin-left:70px;
+        border-right: 2px solid rgb(255, 255, 255);
+        border-left: 2px solid rgb(255, 255, 255);
+        
+     }
+     .sponsors p{
+        color: white;
+        font-size: 12px;
+        padding-bottom: 20px;
+    
+    
+     }
+    
+     .company p{
+       
+        color: white;
+        font-size: 12px;
+        padding-bottom: 13px;
+        margin-right: 40px;
+    
+     }
+     
+     
+      .footer-bottom {
+         
+         text-align: center;
+         margin-top: 50px;
+     }
+     
+     .footer-bottom p {
+         color:#ffffff;
+         margin-bottom: 10px;
+         font-size: 12px;
+     }
+    
+    
+
+
