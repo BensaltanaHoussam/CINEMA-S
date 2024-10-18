@@ -317,6 +317,7 @@ padding: 20px 0px 20PX 0;
     .offer-card{
         background-color: rgb(255, 255, 255);
         border-radius: 19px;
+        box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
        
     }
     .services-container{
@@ -359,97 +360,83 @@ padding: 20px 0px 20PX 0;
 
 
 footer {
-   background-color: #330031;
-    padding: 50px 0;
-}
-
-.footer-container{
+   
+    background-color: #330031;
+     padding: 50px 0;
+ }
  
+ .social-container ul{
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
-    gap: 10px;
-
-}
-.footer-container li{
-    list-style: circle;
-    font-weight: 800;
-    color: #CCCCCC;
-
-}
-.footer-container a{
-   color: #CCCCCC;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.social-media p{
-    color: #CCCCCC;
-    padding-left: 5px;
-    font-weight: 800;
-    padding-bottom: 10px;
-   
-}
-.social-media li{
- padding-bottom: 10px;
-   
-}
-
-.social-media a{
- text-decoration: none;
-    font-weight: 500;
-    padding-bottom: 30px;
-    font-size: 13px;
-   
-}
-
-
-.sponsors {
-   margin-right: 150px;
-    padding-bottom: 10px;
-}
-
-.sponsors p {
-   display: flex;
-   justify-content: center;
-   padding-bottom: 10px;
-}
-.sponsors li{
-    padding-bottom: 10px;
+    gap: 95px;
+      
+ }
+ 
+ .social-titles li{
+     list-style: circle;
+     font-weight: 800;
+     color: #ffffff;
+     padding-bottom: 35px;
+ 
  }
 
 
-.company {
-    
-    padding-bottom: 20px;
-    
-}
-.company  p{
+
+ .footer-content{
     display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
  }
- .company  li{
-   
-    padding-bottom: 10px;
- }
+ 
 
-
-
- .footer-bottom {
-    
-    text-align: center;
-    margin-top: 50px;
-}
-
-.footer-bottom p {
-    color: #CCCCCC;
-    margin-bottom: 10px;
+ .social-icons a{
+    color: white;
+    text-decoration: none;
     font-size: 12px;
-}
-
+   
   
+ }
+ .social-icons li {
+    padding-bottom: 30px;
+   list-style: none; 
+  
+ }
 
 
+ .sponsors{
+    padding: 10px 110Px 190px 110px;
+    margin-left:70px;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    
+ }
+ .sponsors p{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 20px;
 
+
+ }
+
+ .company p{
+   
+    color: white;
+    font-size: 12px;
+    padding-bottom: 13px;
+    margin-right: 40px;
+
+ }
+ 
+ 
+  .footer-bottom {
+     
+     text-align: center;
+     margin-top: 50px;
+ }
+ 
+ .footer-bottom p {
+     color:#ffffff;
+     margin-bottom: 10px;
+     font-size: 12px;
+ }
 
